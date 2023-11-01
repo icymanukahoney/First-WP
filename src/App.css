@@ -1,0 +1,507 @@
+/* Roboto Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Poppins Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Dot Gothic */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+*/ 
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+body {
+  
+  margin: 0;
+  padding: 0px;
+  
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+}
+
+label {
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  color: hsl(0, 65%, 56%);
+  margin-bottom: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 25px;
+  padding-top:  20px;
+}
+
+/* nav */
+#topnav {
+ 
+  display: flex;
+  padding: 20px;
+}
+
+#menu {
+  width: 75%;
+  padding-right: 30px;
+}
+
+#menu-button {
+  float: right;
+}
+
+#topnav {
+  text-align: right;
+  border-bottom: 1px solid rgb(0, 168, 34);
+}
+
+#topnav a {
+  font-family: 'Cabin Sketch', cursive;
+  color: rgb(216, 70, 70);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 30ppx;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#topnav #logo {
+    width: 25%;
+    font-weight: 600;
+    font-size: 28px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+#button-container {
+  width: 50%;
+}
+
+/* buttons */
+button {
+  background: none;
+  border: none;
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#hamburger-icon {
+  color: rgb(0, 168, 34);
+  font-size: 33px;
+  position: relative;
+  top: 2px;
+}
+
+#mobile-menu {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 25%;
+}
+#mobile-menu a {
+  font-family: 'Cabin Sketch', cursive;
+  color: rgb(0, 168, 34);
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#close-nav-menu {
+  z-index: 2;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 53px;
+  color: rgb(216, 70, 70);
+}
+#menu a {
+  text-decoration: none;
+  color: rgb(0, 168, 34);
+  font-size: 20px;
+}
+#menu {
+  display: none;
+}
+
+#menu-container {
+  width: 100%;
+}
+
+#topnav a:hover {
+  color: hsl(230, 100%, 49%);
+}
+
+#menu a:hover {
+  color: #00a2f9;
+}
+.post-container img {
+  width: 80%;
+  border: 2px solid #009688;
+  
+}
+
+img {
+box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  border: 1px solid #8080805e;
+  
+}
+
+.dino-container {
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  border: 1px solid #9E9E9E;
+  margin-bottom:  50px;
+  margin-top:  30px;
+}
+
+.dino-container p {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.post-container-post {
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  border: 1px solid #9E9E9E;
+  margin-bottom: 50px;
+  margin-top:  30px;
+}
+
+.post-container-post p {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top:  10px;
+  margin-bottom: 10px;
+  font-family: 'Bodoni Moda', serif;
+}
+.post-container-post img, .dino-container img {
+  width: 80%;
+  border: 1px solid #8080805e;
+  
+}
+
+h4.title {
+  font-family: 'Cabin Sketch', cursive;
+  color: hsl(0, 0%, 0%);
+  font-size: 15px;
+  text-align: center;
+  padding-top:  10px;
+  padding-bottom: 10px;
+}
+
+.post-container li {
+  list-style-type: none;
+}
+
+.key {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  
+}
+.footer {
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgb(0, 168, 34);
+    background-color: white; /* Set a background color if needed */
+    color: black; 
+}
+.footer h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+  font-family: 'Cabin Sketch', cursive;
+  color: rgb(216, 70, 70);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top:  10px;
+  padding-bottom: 10px;
+}
+.container {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+#dinosCont {
+  display: grid;
+  grid-template-columns: 1fr;  
+    grid-gap: 20px;
+    background-color: rgb(0, 168, 34);
+    justify-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+#homeCont {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-gap: 20px;
+  
+  justify-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.post-container {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  width: 80%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+  /* Prevent content overflow */
+  outline: none; /* Remove the default focus outline */
+}
+
+.post-container a,
+.post-container h4,
+.post-container p {
+  margin: 0 10px; /* Add margin left and right */
+  max-width: 100%; /* Set maximum width for the content elements */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Display ellipsis (...) if content is truncated */
+}
+
+.post-container a {
+  font-family: 'Cabin Sketch', cursive;
+  color: rgb(216, 70, 70);
+  font-size: 20px;
+  text-align: center;
+  
+}
+.post-container h4 {
+  font-family: 'Cabin Sketch', cursive;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  padding-top:  20px;
+  padding-bottom: 10px;
+}
+.post-container p {
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top:  10px;
+  padding-bottom: 10px;
+}
+
+.post-container-artist {
+margin-bottom: 100px;
+text-align:center;
+}
+
+.artist-container  {
+  margin-bottom: 100px;
+}
+
+.post-container-artist img {
+  width: 80%;
+  border: 1px solid #9E9E9E;
+}
+.hourglass-container
+{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  }
+
+.loader-container {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  }
+
+  .artist-container img {
+   width: 80%;
+   text-align: center;
+   border: 1px solid #8080805e;
+  }
+
+  .artist-container {
+    text-align: center;
+   }
+
+   .container-genre {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   }
+
+   .page-container h4 {
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .send-message-container {
+   text-align: center;
+   }
+
+   .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+    .regular-button {
+      margin-top: 20px;
+    }
+    
+ #shop-page.container {
+  margin-bottom: 50px;
+ }
+
+
+ /* Loading Screen */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  animation: fade 2.5s linear;
+}
+
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+
+.bar {
+  display: inline-block;
+  width: 3px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 10px;
+  animation: scale-up4 1s linear infinite;
+}
+
+.bar:nth-child(2) {
+  height: 35px;
+  margin: 0 5px;
+  animation-delay: .25s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: .5s;
+}
+
+@keyframes scale-up4 {
+  20% {
+    background-color: #ffff;
+    transform: scaleY(1.5);
+  }
+
+  40% {
+    transform: scaleY(1);
+  }
+}
+
+/* Media queries */
+@media screen and (min-width: 780px) {
+
+  #homeCont, #dinosCont {
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 10px; 
+    padding-bottom: 50px; 
+    padding-top: 30px;
+}
+
+  .post-container {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+  #menu {
+    display: block;
+    width: 75%;
+  }
+  #menu li {
+    display: inline-block;
+  }
+  #menu-container {
+    display: none;
+  }
+  
+}
